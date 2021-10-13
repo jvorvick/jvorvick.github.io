@@ -17,21 +17,19 @@
     <div class="top-page-content container white-text">
       <div class="custom-header">
         <div class="custom-row">
-          
-          <a class="white-text" href="sass.html">Sass</a>
-          <a class="white-text" href="badges.html">Components</a>
-          <a class="white-text" href="collapsible.html">JavaScript</a>
-          
+          <a class="white-text" href="#skills">Skills</a>
+          <a class="white-text" href="#education">Education</a>
+          <a class="white-text" href="#projects">Projects</a> 
         </div>
       </div>
-        <div class="row">
+      <div id="top-section" class="row">
         <div class="col s3">
           <img id="profile-pic" src="./IMG_0706.JPG" alt=""/>
         </div>
-        <div class="col s9">
-          <!-- <div class="row"> -->
+        <div id="main-info" class="col s9">
+          
             <h4 class="text1">Jesse Vorvick</h4>
-            <p>Full-Stack/Back-End Developer</p>
+            <p id="occupation">Full-Stack/Back-End Developer</p>
             <div class="row custom-info">
               
               <div id="custom-info-names" class="col">
@@ -44,57 +42,104 @@
                 <p>503-312-7720</p>
                 <p>vorvickjesse@gmail.com</p>
               </div>
-                
+              
             </div>
-            <a class="white-text" href="www.linkedin.com/in/jesse-vorvick">Linkedin</a>
-            <a class="white-text" href="https://github.com/jvorvick/jvorvick.github.io.git">Github</a>
-          <!-- </div> -->
+            <div class="row">
+              <div class="col">
+                <a class="purple-text profile-links" href="www.linkedin.com/in/jesse-vorvick">Linkedin</a>
+              </div>
+              <div id="github-link" class="col s6">
+                <a class="purple-text profile-links" href="https://github.com/jvorvick/jvorvick.github.io.git">Github</a>
+              </div>
+            </div>
         </div>
       </div>
     </div>
   </div>
   <div class="content container">
-    <div class="row container">
-      <br>
-      <br>
-      <h5>About me</h5>
-      <p>Skilled at retaining knowledge and communicating it effectively; detail oriented; energetic and motivated; optimistic and vision-oriented; bright and personable; a natural leader.</p>
+    <div class="row">
+      <div class="col">
+        <br>
+        <br>
+        <h5>About me</h5>
+        <p>Skilled at retaining knowledge and communicating it effectively; detail oriented; energetic and motivated; optimistic and vision-oriented; bright and personable; a natural leader.</p>
+      </div>
     </div>
     <div class="row">
-      <div class="col s6">
+      <div id="skills" class="col s6">
         <h5>Skills</h5>
-        <ul>
-          <li>Python</li>
-          <li>Javascript</li>
-          <li>Django</li>
-          <li>HTML & CSS</li>
-          <li>CompTIA A+ Certified</li>
-          <li>Proficient in Japanese</li>
-        </ul>
+        <div class="row">
+          <div class="skill-column col">
+            <p>Python</p>
+            <p>Javascript</p>
+            <p>Django</p>
+            <p>HTML & CSS</p>
+            <p>CompTIA A+ Certified</p>
+            <p>Japanese Language</p>
+            <p>Command line</p>
+          </div>
+          <div class="skill-column col">
+            <p>Windows</p>
+            <p>GitHub</p>
+            <p>Ajax</p>
+            <p>APIs</p>
+            <p>Bootstrap/Materialize</p>
+            <p>Full-Stack Development</p>
+          </div>
+        </div>
       </div>
-      <div class="col s6">
-        <h4>Work History</h4>
-              <h5>Software Developer</h5>
-              <h4>Seeking Next Opportunity as of now</h4>
-              <h3>Information Technology Specialist</h3>
-              <h4>Providence</h4>
-              <h4>Sep 2020 - Nov 2020</h4>
-              <ul>
-                Contracted through TekSystems. Used active directory and many other admin-level applications. Worked at help-desk and assisted caregivers with computer issues remotely. Documented processes through tickets.
-                <li>
-                  Was messaged by a caregiver who requested my manager's name so he could commend me
-              </li>
-              <li>
-                Solved over 20 tickets in a single, 3 hour call, solving an issue that affected an entire department
-              </li>
-              <li>
-                Was occasionally emailed by caregivers asking for my help specifically
-              </li>
-            </ul>
-            <h3>Receptionist</h3>
-            <h4>Norco, Inc.</h4>
-            <h4>Sep 2017 - Aug 2018</h4>
+      <div id="education" class="col s6">
+        <!-- <div>
+          <h5>Work History</h5>
+          <p>Software Developer</p>
+          <p>Seeking Next Opportunity as of now</p>
+          <p>Information Technology Specialist</p>
+          <h5>Providence</h5>
+          <h5>Sep 2020 - Nov 2020</h5>
+          <h5>Receptionist</h5>
+          <h5>Norco, Inc.</h5>
+          <h5>Sep 2017 - Aug 2018</h5>
+          <h5>Shigezo Japanese Restaurant</h5>
+          <h5>Pantry Position</h5>
+          <h5>June 2016 - Aug 2016</h5>
+          <h5>Fred Meyer Fuel Center</h5>
+          <h5>Work Crew</h5>
+          <h5>Nov 2015 - Dec 2015</h5>
+          <h5>Toyama University of International Studies</h5>
+          <h5>Assistant Teacher	</h5>
+          <h5>Jan 2014 - May 2014</h5>
+          <h5>Counter Point Martial Art</h5>
+          <h5>Assistant Instructor</h5>
+          <h5>2008 - 2013</h5>
+        </div> -->
+        
+        <h5>Education</h5>
+        <h6>Python Full-Stack Course</h6>
+        <div class="edu-info">
+          <p>Python, Django, Javascript, HTML + CSS</p>
+          <p>PDX Code Guild – Portland OR – September 2021</p>
+        </div>
+        <h6>CompTIA A+ Certification Course</h6>
+        <div class="edu-info">
+          <p>IT-Ready Program – Portland OR – September 2020</p>
+        </div>
+        <h6>Bachelor of Arts – Liberal Studies – Focus on Japanese</h6>
+        <div class="edu-info">
+          <p>Portland State University – Portland OR – 2012 - January 2016</p>
+        </div>
+        <h6>Japanese Language Education</h6>
+        <div class="edu-info">
+          <p>Toyama University of International Studies – Japan – 2013-2014</p>
+        </div>
       </div>
+    </div>
+    <div id="projects" class="row">
+      <h5>Projects</h5>
+      <h6>Game Picker - Solo Project</h6>
+      <p>Aug 2021 - Sept 2021</p>
+      <p>This app potentially serves as a database of all known video games and a way to help the user decide which game to play. It is searchable and can be filtered by console and genre. Clicking a button will pull up a random game. A profile can be created by the user. The user will have the option to search for games and add them to their own digital collection. They can then click “randomize” to draw from this collection. The user can also set filters for their own collection before clicking “randomize.” The app will randomize based on this filter.</p>
+      <p>Tech Skills used: Python, Django, API, JavaScript, HTML, CSS, front-end framework (Materialize)</p>
+      <a href="http://inyo.pythonanywhere.com/gamepicker/" class="href">http://inyo.pythonanywhere.com/gamepicker/</a>
     </div>
   </div>
 </body>
