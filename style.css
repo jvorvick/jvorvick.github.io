@@ -7,6 +7,16 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #f5f5f5;
+}
+
+#top-background {
+  /* background-image: linear-gradient(to top, #f5f5f5, #ccd3e1, #97b6ca, #589bab, #008080); */
+  background-image: linear-gradient(to top, #4f8787, #438585, #358484, #238282, #008080);
+  background-image: linear-gradient(to top, #6d8b8b, #5c8888, #498686, #318383, #008080);
+  background-image: linear-gradient(to top, #a9b5b5, #8aa8a8, #699b9b, #458d8d, #008080);
+  background-image: linear-gradient(to top, #d6d6d6, #b6bdca, #88a7bb, #5194a4, #008080);
+  background-image: linear-gradient(to top, #99dada, #7bc3c3, #5cacac, #3a9696, #008080);
 }
 
 a {
@@ -101,7 +111,8 @@ h5 {
 }
 
 h6 {
-  font-weight: bold !important;
+  text-decoration: underline;
+  /* font-weight: bold !important; */
   /* font-size: 1.5rem !important; */
 }
 
@@ -110,16 +121,15 @@ h6 {
   margin-bottom: 2rem;
 }
 
-.text1 {
+#name {
   font-size: 4rem;
+  font-weight: bold !important;
 }
 
-.text2 {
-
-}
-
-.text3 {
-
+#footer {
+  height: 10rem;
+  margin-top: 5rem;
+  background-image: linear-gradient(to bottom, #99dada, #7bc3c3, #5cacac, #3a9696, #008080);
 }
 
 
