@@ -126,6 +126,10 @@ h6 {
   font-weight: bold !important;
 }
 
+.screenshot {
+  max-width: 100%;
+}
+
 #footer {
   height: 10rem;
   margin-top: 5rem;
